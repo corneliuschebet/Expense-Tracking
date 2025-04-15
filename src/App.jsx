@@ -23,11 +23,21 @@ function App() {
   );
 
   return (
-    <div className="app-container">
-      <h1>Expense Tracker</h1>
-      <ExpenseForm onAddExpense={handleAddExpense} />
-      <SearchBar searchTerm={searchTerm} onSearchChange={setSearchTerm} />
-      <ExpenseTable expenses={filteredExpenses} onDelete={handleDeleteExpense} />
+    <div className="app-layout">
+      <div className="card">
+        <h1>Expense Tracker</h1>
+        <ExpenseForm onAddExpense={handleAddExpense} />
+        <div className="search-sort">
+          <SearchBar searchTerm={searchTerm} onSearchChange={setSearchTerm} />
+        </div>
+      </div>
+
+      <div className="table-container">
+        <ExpenseTable
+          expenses={filteredExpenses}
+          onDelete={handleDeleteExpense}
+        />
+      </div>
     </div>
   );
 }
