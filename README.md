@@ -4,20 +4,20 @@ A simple and interactive Expense Tracker app built with **React**. This project 
 
 ---
 
-## 🚀 Features
+##  Features
 
-### ✅ Core Features
+###  Core Features
 - Display a table of all expenses
 - Add a new expense through a form
 - Filter expenses with a live search bar (matches name or description)
 
-### 🌟 Advanced Features
+###  Advanced Features
 - Sort expenses by **category** or **description**
 - Delete an individual expense from the table
 
 ---
 
-## 🧱 Tech Stack
+## Tech Stack
 
 - React 
 - JSX
@@ -25,7 +25,7 @@ A simple and interactive Expense Tracker app built with **React**. This project 
 - HTML
 - Vercel API(frontend)
 
-## 🛠️ Setup Instructions
+## Setup Instructions
 
  **Clone the repo**
 
@@ -33,3 +33,6 @@ A simple and interactive Expense Tracker app built with **React**. This project 
   - cd expense-tracker
   - install dependecies---npm install
   - run the app ---npm run dev 
+
+## Created by 
+Cornelius Chebet
