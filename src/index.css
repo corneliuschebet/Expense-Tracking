@@ -4,7 +4,7 @@
   font-weight: 400;
   color-scheme: light dark;
   color: #212121;
-  background-color: #f5f5f5;
+  background-color: #250c31;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -16,12 +16,12 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  background-color: #f5f5f5;
+  background-color: #67116e50;
 }
 
 a {
   font-weight: 500;
-  color: #ff6f61;
+  color: #2a88ad;
   text-decoration: none;
 }
 
